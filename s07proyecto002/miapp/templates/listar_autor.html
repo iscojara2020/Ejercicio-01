@@ -10,9 +10,8 @@
         {% for autor in autor %}
             <li>
                 <h4>
-                    {{autor.id}} - {{autor.nombre}}
+                    {{autor.id}} - {{autor.nombre}} {{autor.apellido}}
                 </h4>
-                <p>Apellido: {{autor.apellido}}</p>
                 <p>Sexo: {{autor.sexo}}</p>
                 <p>Fecha de Nacimiento: {{autor.fecha_nacimiento}}</p>
                 <p>Pais: {{autor.pais}}</p>
